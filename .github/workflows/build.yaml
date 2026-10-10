@@ -13,6 +13,9 @@ env:
   ITCH_IO_PUBLISH: 'true'
   # Set ITCH_IO_API_KEY in Repository Secrets
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
